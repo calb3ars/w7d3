@@ -13,7 +13,7 @@ class PokemonIndex extends React.Component {
           return(
             <li  className="pokemon-index-item" key={index}>
               {poke.name}
-              <img src={`${poke.image_url}`} />
+              <img src={`${poke.image_url}`} height="30" width="30" />
             </li>
           );})
         }
